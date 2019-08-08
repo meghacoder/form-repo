@@ -1,2 +1,3 @@
 # form repo
- learn about inputs
+ learn about inputs of form 
+and validation

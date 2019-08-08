@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FORM </title>
+</head>
+<body>
+  <form action="" method="post">
+  <h1>Register</h1>
+  <label for="m1"><strong>First Name:</strong><input id="m1" type="text"placeholder="john"required></label>
+  <label for="m2"><strong>Last Name:</strong><input id="m2" type="pasword"placeholder="smith" required></label>
+  <br>
+  <label for="m3"><strong>Male</strong><input id="m3" type="radio"name="radio" button value="male"></label>
+  <!-- <label for="m3"><strong</strong><input id="m3" type="radio"></label> -->
+  <label for="m4"><strong>Female</strong><input id="m4" type="radio"name="radio"  value="female"></label>
+  <label for="m5"><strong>Other</strong><input id="m5" type="radio"name="radio"  value="other"></label>
+  <br>
+  <label for="m6"> <strong>Email:</strong><input type="email" id="m6" required placeholder="email" ></label>
+
+  <label for="m7"> <strong>Password:</strong><input type="password" id="m7" required placeholder="password"pattern="[a-z]{4,10}" title="password should be contain atleast four symbol and atmost 10 symbol" ></label>
+  <br>
+  <strong>Birthday:</strong>
+  <select name="month" id="r1">
+    <option value="Month" disabled><strong>month</strong></option>
+    <option value="jan">jan</option>
+    <option value="feb">feb</option>
+    <option value="mar">mar</option>
+    <option value="apr">apr</option>
+  </select>
+  <select name="day" id="r2">
+    <option value="Day"disabled><strong>day</strong></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  <select name="year" id="r3">
+    <option value="Year"disabled><strong>year</strong></option>
+    <option value="2012">2012</option>
+    <option value="2013">2013</option>
+    <option value="2014">2014</option>
+    <option value="2015">2015</option>
+  </select>
+  <br>
+  <label for="m8"> <strong>I agree to the terms and conditions</strong> <input type="checkbox" name="checkbox" value="I agree to the terms and conditions"  id="m8"required></label>
+  <br>
+  <button>submit</button>
+  </form>
+</body>
+</html>
